@@ -19,18 +19,6 @@ class EmojiViewController: UIViewController {
         super.viewDidLoad()
 
         myEmoji.text = emoji
-        if emoji == "😀" {
-            emojiDefinition = "Face Laughing"
-        }
-        if emoji == "👌" {
-            emojiDefinition = "OK Hand Signal"
-        }
-        if emoji == "🙄" {
-            emojiDefinition = "Face with Rolling Eyes"
-        }
-        if emoji == "😘" {
-            emojiDefinition = "Face blowing a Kiss"
-        }
         myLabel.text = emojiDefinition
     }
 }
